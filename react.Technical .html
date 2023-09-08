@@ -135,6 +135,21 @@ Conceptually, components are like JavaScript functions. They accept arbitrary in
 
 Consider the ticking clock example from one of the previous sections. In Rendering Elements, we have only learned one way to update the UI. We call ReactDOM.render() to change the rendered output:</p>
 
+<pre>
+<code>
+function tick() {
+          const element = (
+    < div>
+      < h1 >Hello, world!< /h1>
+      < h2 >It is {new Date().toLocaleTimeString()}.< /h2 >
+    < /div>
+    );
+    ReactDOM.render(
+     element,
+     document.getElementById('root')
+   );
+ }
+
 
     <script src="
 main.js"></script>
