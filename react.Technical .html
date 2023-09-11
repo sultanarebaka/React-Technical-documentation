@@ -200,6 +200,17 @@ function GuestGreeting(props) {
       } </code></pre> <br>
 			</div>
 
+<p>We’ll create a Greeting component that displays either of these components depending on whether a user is logged in:</p>
+
+      <pre><code>
+
+function Greeting(props) {
+  const isLoggedIn = props.isLoggedIn;
+  if (isLoggedIn) {
+    return <UserGreeting />;
+  }
+}
+
     <script src="
 main.js"></script>
   </body>
