@@ -265,7 +265,12 @@ technique called “controlled components”.</p>
 		<section class="main-section" id="lifting_state_up">
 			<header><h1>Lifting State Up</h1></header>
 			<p>Often, several components need to reflect the same changing data. We recommend lifting the shared state up to their closest common ancestor. Let’s see how this works in action.<br><br>
-</p>
+
+In this section, we will create a temperature calculator that calculates whether the water would boil at a given temperature.<br><br>
+
+We will start with a component called BoilingVerdict. It accepts the celsius temperature as a prop, and prints whether it is enough to boil the water:</p>
+			
+
     <script src="
 main.js"></script>
   </body>
