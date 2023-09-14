@@ -304,10 +304,21 @@ handleChange(e) {
       <fieldset>
         <legend>Enter temperature in Celsius:</legend>
 
-</fieldset>
+<input
+          value={temperature}
+          onChange={this.handleChange} />
 
-</div>
-</pre></code>
+        
+<BoilingVerdict
+          celsius={parseFloat(temperature)} />
+
+      </fieldset>
+    );
+  }
+}
+				</code></pre> <br>
+			</div>
+	 <br>
 
     <script src="
 main.js"></script>
