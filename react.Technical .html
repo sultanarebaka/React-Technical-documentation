@@ -294,6 +294,18 @@ Additionally, it renders the BoilingVerdict for the current input value.
     this.state = {temperature: ''};
   }
 
+handleChange(e) {
+    this.setState({temperature: e.target.value});
+  }
+
+  render() {
+    const temperature = this.state.temperature;
+    return (
+      <fieldset>
+        <legend>Enter temperature in Celsius:</legend>
+
+</fieldset>
+
 </div>
 </pre></code>
 
