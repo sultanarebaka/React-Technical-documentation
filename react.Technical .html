@@ -115,10 +115,7 @@ React doesn’t require using JSX, but most people find it helpful as a visual a
       <header><h1>Components and Props</h1></header>
 			<p>Components let you split the UI into independent, reusable pieces, and think about each piece in isolation. This page provides an introduction to the idea of components. You can find a detailed component API reference here.<br><br>
 
-Conceptually, components 
-
-
- like JavaScript functions. They accept arbitrary inputs (called “props”) and return React elements describing what should appear on the screen.</p>
+Conceptually, components like JavaScript functions. They accept arbitrary inputs (called “props”) and return React elements describing what should appear on the screen.</p>
 
 <p>The simplest way to define a component is to write a JavaScript function:</p>
       
@@ -134,7 +131,6 @@ Conceptually, components
 <section class="main-section" id="state_lifecycle">
       <header><h1>State and Lifecycle</h1></header>
 			<p>This page introduces the concept of state and lifecycle in a React component. You can find a detailed component API reference here.<br><br>
-
 
 Consider the ticking clock example from one of the previous sections. In Rendering Elements, we have only learned one way to update the UI. We call ReactDOM.render() to change the rendered output:</p>
 
@@ -152,7 +148,6 @@ function tick() {
      document.getElementById('root')
    );
  }
-
 
 
 setInterval(tick, 1000);
@@ -225,7 +220,6 @@ ReactDOM.render(
 		<section class="main-section" id="list_keys">
       <header><h1>Lists and Keys</h1></header>
 			<p>First, let’s review how you transform lists in JavaScript.<br><br>
-
 
 Given the code below, we use the map() function to take an array of numbers and double their values. We assign the new array returned by map() to the variable doubled and log it:</p> 
       <pre><code>
@@ -308,7 +302,7 @@ handleChange(e) {
           value={temperature}
           onChange={this.handleChange} />
 
-        
+       
 <BoilingVerdict
           celsius={parseFloat(temperature)} />
 
@@ -345,26 +339,7 @@ We recommend that such components use the special children prop to pass children
 }
 				</code> </pre><br>
 			</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-				
+			
 			<div> <br>
 				<pre><code>function FancyBorder(props) {
   return (
@@ -387,7 +362,7 @@ We recommend that such components use the special children prop to pass children
 </h1>
       
 <p className="Dialog-message">
-        Thank you for visiting our spacecraft!
+        Thank You!
       
 </p>
     </FancyBorder>
