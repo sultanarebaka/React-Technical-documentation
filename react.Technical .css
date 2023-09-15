@@ -1,4 +1,4 @@
-
+ 
 body{
        background-color:#DDFFBB;
   font-family:"Lato", sans-serif;
@@ -26,6 +26,10 @@ h1{
 }
 
 
+
+
+
+
 .sidebar a {
  
    -webkit-flex:1; 
@@ -45,6 +49,7 @@ h1{
 .sidebar a:hover {
   color: black;
 }
+
 
 .main-doc{
    -webkit-flex: 3;
@@ -72,6 +77,11 @@ h1{
    
    
    
+   
+   
+   
+  
+      
    
    
    
